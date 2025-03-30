@@ -56,6 +56,13 @@ h1, h2 {
     animation: fadeIn 1.5s ease-in-out; /* Animación de entrada */
 }
 
+/* Ajuste del tamaño del logo en pantallas pequeñas */
+@media (max-width: 768px) {
+    .intro-logo {
+        max-width: 60%; /* Aumenta el tamaño del logo al 60% del ancho de la pantalla */
+    }
+}
+
 /* Animación de entrada */
 @keyframes fadeIn {
     from {

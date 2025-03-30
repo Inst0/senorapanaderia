@@ -7,6 +7,7 @@
     <!-- Tipografía -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <link rel="icon" href="img/Señora_Logo_Col_2022_V001-01.png" type="image/png">
 </head>
 <body>
     <!-- Pantalla inicial -->
@@ -48,8 +49,15 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <p>&copy; 2025 Señora Panadería. Todos los derechos reservados.</p>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="script.js"></script> <!-- Enlace al archivo JS -->
+    <script>
+        const year = new Date().getFullYear();
+        document.querySelector('.footer p').innerHTML = `&copy; ${year} Señora Panadería. Todos los derechos reservados.`;
+    </script>
 </body>
 </html>

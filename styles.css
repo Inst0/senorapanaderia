@@ -162,3 +162,18 @@ a.download-btn:hover {
     transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Sombra más intensa al pasar el cursor */
 }
+
+/* Estilo para el pie de página */
+.footer {
+    background-color: #010101; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    text-align: center; /* Centrar el texto */
+    padding: 20px 0; /* Espaciado superior e inferior */
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    border-top: 1px solid #644c04; /* Línea superior decorativa */
+}
+
+.footer p {
+    margin: 0; /* Elimina márgenes */
+    font-weight: 300; /* Texto más fino */
+}
